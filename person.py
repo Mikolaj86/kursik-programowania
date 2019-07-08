@@ -8,7 +8,7 @@ class Person(object):
         self.age = age
         self.is_single = is_single
 
-        def is mature(self):
+        def is_mature(self):
         if self.age >= 18:
             return True
         else:
